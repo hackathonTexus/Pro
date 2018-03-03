@@ -18,6 +18,10 @@
         </activity>
         <activity android:name=".choose" />
         <activity android:name=".makeachoice"></activity>
+        <uses-library android:name="android.test.runner" />
     </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 </manifest>
